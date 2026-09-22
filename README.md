@@ -32,12 +32,3 @@ The dataset contains information about Netflix Movies and TV Shows, including:
 - Listed In
 - Description
 
-## Business Problems & Solutions
-
-### 1. Count the Number of Movies vs TV Shows
-
-```sql
-SELECT type, COUNT(*) AS count
-FROM netflix
-GROUP BY type
-ORDER BY count DESC;
